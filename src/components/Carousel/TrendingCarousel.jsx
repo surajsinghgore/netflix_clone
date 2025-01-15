@@ -3,16 +3,16 @@ import { show1, show2, show3, show4, show5, show6, show7, show8, show9, show10 }
 
 const TrendingCarousel = () => {
     const allItems = [
-        { id: 1, title: "Maran", image: show1 },
-        { id: 2, title: "Vicky Vidya Video", image: show2 },
-        { id: 3, title: "Race 3", image: show3 },
-        { id: 4, title: "Sikandar Ka Muqaddar", image: show4 },
-        { id: 5, title: "A...", image: show5 },
-        { id: 6, title: "Maran 2", image: show6 },
-        { id: 7, title: "Vidya Again", image: show7 },
-        { id: 8, title: "Race 4", image: show8 },
-        { id: 9, title: "Sikandar Returns", image: show9 },
-        { id: 10, title: "A++...", image: show10 },
+        { id: 1, image: show1 },
+        { id: 2, image: show2 },
+        { id: 3,  image: show3 },
+        { id: 4, image: show4 },
+        { id: 5, image: show5 },
+        { id: 6, image: show6 },
+        { id: 7,  image: show7 },
+        { id: 8,  image: show8 },
+        { id: 9, image: show9 },
+        { id: 10, image: show10 },
     ];
 
     const [startIndex, setStartIndex] = useState(0);
