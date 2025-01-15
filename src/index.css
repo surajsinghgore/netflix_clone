@@ -10,9 +10,9 @@
 
 
 select {
-  appearance: none; /* Removes default styles for select, including the arrow */
-  -moz-appearance: none; /* Firefox */
-  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  -moz-appearance: none; 
+  -webkit-appearance: none; 
   background: none; 
   font-size: 1rem; 
   border: 1px solid rgb(198, 198, 198);
@@ -21,13 +21,11 @@ select {
   color: white;
 }
 
-/* Optional: Add hover effect */
 select:focus {
   outline: 2px solid rgb(255, 255, 255);
 }
 
-/* Optional: Style the options */
 option {
-  background: #fff; /* White background for dropdown options */
-  color: #000; /* Black text for options */
+  background: #fff; 
+  color: #000;
 }

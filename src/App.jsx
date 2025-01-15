@@ -1,11 +1,12 @@
 import './App.css'
-import { HomeBanner } from './components'
+import { HomeBanner, HomeTrendingSection } from './components'
 
 function App() {
 
   return (
   <>
   <HomeBanner />
+  <HomeTrendingSection/>
   </>
   )
 }
